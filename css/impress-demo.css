@@ -57,9 +57,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
 blockquote, q {
     quotes: none;
 }
@@ -84,14 +81,16 @@ table {
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
-
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+/*
+    background: rgb(245, 245, 245);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(200, 200, 200)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+*/
+
 }
 
 /*
@@ -165,9 +164,7 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
-    padding: 40px;
-    margin: 20px auto;
+    width: 960px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -209,9 +206,8 @@ a:focus {
 .slide {
     display: block;
 
-    width: 900px;
+    width: 960px;
     height: 700px;
-    padding: 40px 60px;
 /*
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
@@ -230,7 +226,8 @@ a:focus {
 .slide q {
     display: block;
     font-size: 24px;
-    line-height: 72px;
+    line-height: 42px;
+    padding-top: 10px;
 }
 
 .slide q strong {
@@ -700,3 +697,14 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+#title{
+    font-size: 54px;
+    color:#1996d7;
+    padding-bottom:20px;
+}
+
+h2{
+    font-size: 42px;
+}
+
