@@ -698,13 +698,59 @@ a:focus {
     for you.
 */
 
+#welcome{
+	background-image:url('../img/welcome.jpg');
+	background-repeat:no-repeat;
+	background-size:100%,100%;
+}
+
 #title{
-    font-size: 54px;
+    font-size: 64px;
     color:#1996d7;
-    padding-bottom:20px;
+    padding-top:60px;
+	padding-left:40px;
+	line-height: 70px;
+}
+
+#sub-title{
+	font-size: 32px;
+    padding-left:180px;
+	padding-top:30px;
 }
 
 h2{
     font-size: 42px;
+	color:#1996d7;
+	padding-bottom:20px;
+	text-indent:0.8em;
 }
+
+#recru1{
+	background-image:url('../img/recru1.png');
+	background-repeat:no-repeat;
+	background-position:100%,100%;
+	background-size:100%,100%;
+}
+
+#recru2{
+	background-image:url('../img/recru2.png');
+	background-repeat:no-repeat;
+	background-position:100%,100%;
+	background-size:100%,100%;
+}
+
+#recru3{
+	background-image:url('../img/recru3.png');
+	background-repeat:no-repeat;
+	background-position:100%,0;
+	background-size:100%,100%;
+}
+
+#recru4{
+	background-image:url('../img/recru4.png');
+	background-repeat:no-repeat;
+	background-position:100%,100%;
+	background-size:100%,100%;
+}
+
 
