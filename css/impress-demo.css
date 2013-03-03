@@ -109,6 +109,7 @@ a {
     background: rgba(255,255,255,0.5);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
     border-radius: 0.2em;
+	font-size:24px;
 
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
@@ -723,6 +724,11 @@ h2{
 	color:#1996d7;
 	padding-bottom:20px;
 	text-indent:0.8em;
+}
+
+ul{
+	padding-left:20px;
+	font-size:24px;
 }
 
 #recru1{
