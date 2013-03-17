@@ -60,7 +60,6 @@ body {
 ol, ul {
     margin-left: 5%;
     margin-right: 7%;
-    margin-top: 3%;
     list-style: disc;
 }
 blockquote, q {
@@ -240,7 +239,7 @@ a:focus {
     white-space: nowrap;
 }
 
-h1, h2, h3, h4 {font-size: 50px; margin: 0; padding: 0; font-weight: inherit;}
+h1, h2, h3, h4 {font-size: 50px; margin-bottom: 20px; padding: 0; font-weight: inherit;}
 
 /*
     And now we start to style each step separately.
